@@ -1,0 +1,78 @@
+Protel Design System Design Rule Check
+PCB File : F:\Git_repository\ROV_Power-Isolation\Horizental\HPowerv2.PcbDoc
+Date     : 2021/9/25
+Time     : 17:03:33
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (All),(All)
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (43.561mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (43.561mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (44.069mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (44.069mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (57.429mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (57.429mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (57.937mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Arc (57.937mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (43.561mm,113.03mm)(43.561mm,115.57mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (57.429mm,113.157mm)(57.429mm,115.697mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.381mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (57.937mm,113.157mm)(57.937mm,115.697mm) on Bottom Layer 
+Rule Violations :12
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1mm) (InNet('+5'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=2.54mm) (Preferred=0.635mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1.5mm) (InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1mm) (InNet('+3.3'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1.5mm) (InNet('NetL1_1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1.5mm) (InNet('PGND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1.5mm) (InNet('+12'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=7.62mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Arc (43.561mm,114.3mm) on Bottom Solder And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Track (43.561mm,113.03mm)(43.561mm,115.57mm) on Bottom Solder And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (46.736mm,90.424mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (62.992mm,69.596mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (77.47mm,54.483mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (78.994mm,82.804mm) from Top Layer to Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 18
+Waived Violations : 0
+Time Elapsed        : 00:00:00
