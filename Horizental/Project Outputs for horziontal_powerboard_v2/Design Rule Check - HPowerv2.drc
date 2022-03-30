@@ -1,25 +1,23 @@
 Protel Design System Design Rule Check
 PCB File : F:\Git_repository\OurEDA\ROV_Power-Isolation\Horizental\HPowerv2.PcbDoc
-Date     : 2021/9/29
-Time     : 9:20:56
+Date     : 2022/3/30
+Time     : 21:34:47
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (All),(All)
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (43.561mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (43.561mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (44.069mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (44.069mm,114.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Arc (57.429mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Arc (57.429mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (57.937mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (57.937mm,114.427mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
-   Violation between Clearance Constraint: (0.333mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (43.236mm,111.021mm)(43.236mm,113.072mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.333mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (43.236mm,113.072mm)(43.236mm,113.284mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (43.561mm,113.03mm)(43.561mm,114.3mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (43.561mm,114.3mm)(43.561mm,115.57mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (57.429mm,113.157mm)(57.429mm,115.697mm) on Bottom Layer 
-   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (57.937mm,113.157mm)(57.937mm,115.697mm) on Bottom Layer 
-Rule Violations :15
+   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Arc (16.154mm,69.469mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Arc (16.154mm,69.469mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (16.662mm,69.469mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (16.662mm,69.469mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (2.286mm,69.342mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (2.286mm,69.342mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (2.794mm,69.342mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Arc (2.794mm,69.342mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.458mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (16.154mm,68.199mm)(16.154mm,70.739mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (16.662mm,68.199mm)(16.662mm,70.739mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (2.286mm,68.072mm)(2.286mm,69.342mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (2.286mm,69.342mm)(2.286mm,70.612mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.408mm < 0.5mm) Between Region (0 hole(s)) Bottom Layer And Track (2.794mm,68.072mm)(2.794mm,70.612mm) on Bottom Layer 
+Rule Violations :13
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -31,36 +29,26 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1mm) (InNet('+5'))
-   Violation between Width Constraint: Arc (44.069mm,114.3mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (44.069mm,114.3mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (44.069mm,114.3mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (44.069mm,114.3mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (57.937mm,114.427mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (57.937mm,114.427mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (57.937mm,114.427mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (57.937mm,114.427mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Arc (57.937mm,114.427mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (44.704mm,114.3mm)(45.227mm,114.823mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (47.693mm,115.003mm)(47.759mm,115.069mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (48.409mm,115.719mm)(49.53mm,116.84mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (49.53mm,116.84mm)(49.53mm,116.84mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (57.537mm,116.84mm)(57.538mm,116.84mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (57.538mm,116.84mm)(57.538mm,116.84mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (57.538mm,116.84mm)(57.593mm,116.784mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (57.937mm,113.157mm)(57.937mm,115.697mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-   Violation between Width Constraint: Track (59.562mm,111.344mm)(59.908mm,110.998mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
-Rule Violations :19
+   Violation between Width Constraint: Arc (16.662mm,69.469mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.662mm,69.469mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.662mm,69.469mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.662mm,69.469mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.662mm,69.469mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.794mm,69.342mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.794mm,69.342mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.794mm,69.342mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.794mm,69.342mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.794mm,69.342mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (16.263mm,71.882mm)(16.263mm,71.882mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (16.263mm,71.882mm)(16.318mm,71.826mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (16.662mm,68.199mm)(16.662mm,70.739mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (18.287mm,66.386mm)(18.633mm,66.04mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (2.794mm,68.072mm)(2.794mm,70.612mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (8.255mm,71.882mm)(8.255mm,71.882mm) on Bottom Layer Actual Width = 0.2mm, Target Width = 0.254mm
+Rule Violations :16
 
-Processing Rule : Width Constraint (Min=0.152mm) (Max=2.54mm) (Preferred=0.635mm) (All)
-   Violation between Width Constraint: Arc (57.429mm,114.427mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Arc (57.429mm,114.427mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Arc (57.429mm,114.427mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Track (55.408mm,110.998mm)(55.626mm,110.78mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Track (55.408mm,110.998mm)(55.694mm,111.284mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Track (56.272mm,113.904mm)(56.794mm,114.427mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-   Violation between Width Constraint: Track (57.429mm,113.157mm)(57.429mm,115.697mm) on Bottom Layer Actual Width = 0.1mm, Target Width = 0.152mm
-Rule Violations :7
+Processing Rule : Width Constraint (Min=0.1mm) (Max=2.54mm) (Preferred=0.635mm) (All)
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=2.54mm) (Preferred=1.5mm) (InNet('GND'))
 Rule Violations :0
@@ -87,8 +75,8 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Arc (43.561mm,114.3mm) on Bottom Solder And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Track (43.561mm,113.03mm)(43.561mm,115.57mm) on Bottom Solder And Track (44.069mm,113.03mm)(44.069mm,115.57mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Arc (2.286mm,69.342mm) on Bottom Solder And Track (2.794mm,68.072mm)(2.794mm,70.612mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.254mm < 0.254mm) Between Track (2.286mm,68.072mm)(2.286mm,70.612mm) on Bottom Solder And Track (2.794mm,68.072mm)(2.794mm,70.612mm) on Bottom Solder [Bottom Solder] Mask Sliver [0.254mm]
 Rule Violations :2
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
@@ -98,6 +86,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 43
+Violations Detected : 31
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
