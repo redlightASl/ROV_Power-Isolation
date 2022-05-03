@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : F:\Git_repository\OurEDA\ROV_Power-Isolation\Vertical\Vertical.PcbDoc
-Date     : 2022/3/30
-Time     : 21:29:20
+Date     : 2022/4/12
+Time     : 18:04:35
 
 Processing Rule : Clearance Constraint (Gap=0.3mm) (All),(All)
 Rule Violations :0
@@ -16,7 +16,8 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=1.016mm) (Preferred=0.254mm) (All)
-Rule Violations :0
+   Violation between Width Constraint: Track (-46.672mm,2.667mm)(-45.022mm,2.667mm) on Top Layer Actual Width = 2mm, Target Width = 1.016mm
+Rule Violations :1
 
 Processing Rule : Width Constraint (Min=0.5mm) (Max=1.5mm) (Preferred=0.8mm) (InNet('+3.3'))
 Rule Violations :0
@@ -46,6 +47,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 4
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
